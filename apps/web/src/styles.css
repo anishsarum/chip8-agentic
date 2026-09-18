@@ -1,0 +1,56 @@
+:root {
+  color: #d8ffe8;
+  background: #07131a;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+body {
+  margin: 0;
+}
+.shell {
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+  padding: 2rem;
+}
+.panel {
+  width: min(38rem, 100%);
+  border: 1px solid #45df92;
+  box-shadow: 0 0 3rem #45df9230;
+  padding: 2rem;
+}
+.status {
+  color: #45df92;
+  margin: 0 0 1.5rem;
+}
+h1 {
+  font-size: clamp(2rem, 8vw, 4rem);
+  margin: 0;
+}
+.detail {
+  color: #9db5bc;
+  margin: 1.5rem 0 0;
+}
+.controls {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+button,
+input {
+  font: inherit;
+}
+button {
+  background: #45df92;
+  border: 0;
+  color: #07131a;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+}
+.display {
+  aspect-ratio: 2;
+  background: #02090d;
+  border: 1px solid #1f5b42;
+  image-rendering: pixelated;
+  margin-top: 1.5rem;
+  width: 100%;
+}

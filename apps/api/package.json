@@ -1,0 +1,14 @@
+{
+  "name": "@chip8/api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@chip8/contracts": "workspace:*",
+    "@chip8/core": "workspace:*",
+    "fastify": "^5.7.0"
+  },
+  "scripts": {
+    "build": "tsc --project tsconfig.json"
+  }
+}
