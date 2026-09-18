@@ -1,0 +1,14 @@
+{
+  "name": "@chip8/web",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@chip8/contracts": "workspace:*",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "scripts": {
+    "build": "vite build"
+  }
+}
